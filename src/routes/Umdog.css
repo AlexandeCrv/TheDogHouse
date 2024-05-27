@@ -1,0 +1,30 @@
+.umdogmain {
+  color: white;
+}
+.udp {
+  color: white;
+}
+.geral {
+  display: flex;
+  justify-content: space-around;
+}
+.udimages {
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.UDdivimg {
+}
+.UDinfs {
+  font-size: 20px;
+  height: 300px;
+}
+
+.UDbtn {
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-family: Margarine, sans-serif;
+}

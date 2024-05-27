@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgb(245, 229, 199);
+}
+.link {
+  color: black;
+}
+.navbar h2 a {
+  opacity: 1;
+}
+
+h2 a {
+  font-size: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+.new {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  fill-opacity: 1;
+  color: black;
+  opacity: 0.5;
+}
+.new:hover {
+  transition: 0.5s;
+
+  opacity: 1;
+}
+@media screen and (max-width: 860px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem 2rem;
+    width: 320px;
+    height: 120px;
+  }
+  .ladodireito {
+    width: 390px;
+  }
+  .new {
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    fill-opacity: 1;
+    width: 200px;
+  }
+  .main {
+    margin-left: 0px;
+  }
+}

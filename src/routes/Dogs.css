@@ -1,0 +1,102 @@
+.post {
+  margin-bottom: 100px;
+}
+.cont:hover {
+  transform: scale(1.16);
+}
+.main {
+  margin-top: 100px;
+  width: 1200px;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cont {
+  border: 1px solid white;
+  transition: 0.5s;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  width: 300px;
+  background-color: #2d384b;
+  height: 352px;
+}
+.head h1 {
+  text-align: center;
+  color: white;
+}
+.head input {
+  padding: 13px;
+  width: 190px;
+  border-radius: 10px;
+  border: none;
+  background-color: #a2acca;
+  color: black;
+}
+
+.inpt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: black;
+}
+.input::placeholder {
+  color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.images {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+.inpt input {
+  width: 500px;
+}
+@media screen and (max-width: 860px) {
+  .main {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  .inpt input {
+    width: 220px;
+  }
+  .post {
+    width: 303px;
+  }
+  .container {
+    width: 300px;
+  }
+  .oculos,
+  .oculo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1269px) {
+  .main {
+    width: 900px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+  }
+}
+
+.oculos {
+  width: 100px;
+  margin-right: 100px;
+}
+
+.oculo {
+  width: 100px;
+  margin-left: 100px;
+}
+.carregando {
+  color: black;
+}

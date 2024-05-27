@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+
+  background-color: #17191f;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 95px;
+  flex-direction: column;
+}
+.final {
+  width: 200px;
+}
