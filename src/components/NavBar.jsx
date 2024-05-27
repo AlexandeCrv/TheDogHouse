@@ -8,14 +8,14 @@ const NavBar = () => {
     <nav className="navbar">
       <h2>
         {" "}
-        <Link className="link" to={"/"}>
+        <Link className="link" to={"/TheDogHouse/"}>
           The Dog House <img src={cao} alt="" />
         </Link>
       </h2>
       <div className="ladodireito">
         <ul>
           <li>
-            <Link className="new" to={"/"}>
+            <Link className="new" to={"/TheDogHouse/"}>
               Home
             </Link>
           </li>
